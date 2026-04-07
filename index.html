@@ -1,130 +1,306 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Divyanshi Bairagi</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Divyanshi Bairagi | Portfolio</title>
+  <meta
+    name="description"
+    content="Portfolio of Divyanshi Bairagi, an IT student focused on software development, problem solving, and system-driven projects."
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Cormorant+Garamond:wght@500;600;700&display=swap"
+    rel="stylesheet"
+  />
   <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
+  <div class="page-shell">
+    <div class="cursor-ring" aria-hidden="true"></div>
+    <div class="cursor-dot" aria-hidden="true"></div>
+    <div class="ambient ambient-one"></div>
+    <div class="ambient ambient-two"></div>
+    <div class="mesh-layer" aria-hidden="true">
+      <span class="mesh mesh-a"></span>
+      <span class="mesh mesh-b"></span>
+      <span class="mesh mesh-c"></span>
+    </div>
+    <div class="grid-lines"></div>
 
-<header class="hero">
-  <h1>Divyanshi Bairagi</h1>
-  <p class="typing"></p>
+    <header class="site-header">
+      <a class="brand" href="#top">DB</a>
+      <nav class="top-nav">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
 
-  <div class="hero-actions">
-    <a href="Diksha_Resume.pdf" target="_blank" class="btn outline">View Resume</a>
-    <a href="Diksha_Resume.pdf" download="Divyanshi_Bairagi_Resume.pdf" class="btn solid">
-      Download Resume
-    </a>
+    <main id="top">
+      <section class="hero section reveal">
+        <div class="hero-copy">
+          <p class="eyebrow">IT student | builder | systems thinker</p>
+          <h1>
+            Creating sharp, dependable software experiences with
+            <span>logic, structure, and intention.</span>
+          </h1>
+          <p class="hero-text">
+            I am Divyanshi Bairagi, a second-year IT student who enjoys turning
+            clear thinking into practical solutions. I care about maintainable
+            systems, strong fundamentals, and projects that solve real problems.
+          </p>
+          <p class="typing" aria-live="polite"></p>
+
+          <div class="hero-actions">
+            <a href="Diksha_Resume.pdf" target="_blank" class="btn btn-primary">View Resume</a>
+            <a href="Diksha_Resume.pdf" download="Divyanshi_Bairagi_Resume.pdf" class="btn btn-secondary">
+              Download Resume
+            </a>
+          </div>
+        </div>
+
+        <aside class="hero-panel floating-card">
+          <p class="panel-label">Current Direction</p>
+          <div class="signal">
+            <span class="signal-dot"></span>
+            Focused on core CS, problem solving, and software craft
+          </div>
+
+          <div class="hero-metrics">
+            <article>
+              <strong>3+</strong>
+              <span>hands-on academic and self-driven projects</span>
+            </article>
+            <article>
+              <strong>Core</strong>
+              <span>interest in OOP, DSA, DBMS, and system thinking</span>
+            </article>
+            <article>
+              <strong>Build Style</strong>
+              <span>practical, structured, and growth-oriented</span>
+            </article>
+          </div>
+        </aside>
+      </section>
+
+      <section class="insight-strip reveal">
+        <div class="insight-card">
+          <span>Strength</span>
+          <p>I enjoy breaking complex tasks into clean, manageable systems.</p>
+        </div>
+        <div class="insight-card">
+          <span>Mindset</span>
+          <p>I value consistency, clarity, and long-term improvement over shortcuts.</p>
+        </div>
+        <div class="insight-card">
+          <span>Goal</span>
+          <p>To grow into a software developer known for reliability and strong fundamentals.</p>
+        </div>
+      </section>
+
+      <section id="about" class="about section reveal">
+        <div class="section-heading">
+          <p class="eyebrow">About Me</p>
+          <h2>A professional foundation with ambitious energy.</h2>
+        </div>
+
+        <div class="about-layout">
+          <article class="about-card floating-card">
+            <p>
+              My approach is grounded in logic, disciplined learning, and a real
+              interest in how software works beneath the surface. I enjoy coding,
+              refining solutions, and improving the way systems are organized.
+            </p>
+            <p>
+              As I continue building my portfolio, I am especially drawn to
+              projects that sharpen my understanding of data structures, object
+              oriented design, and efficient problem solving.
+            </p>
+          </article>
+
+          <div class="timeline-card floating-card">
+            <div class="timeline-item">
+              <span class="timeline-index">01</span>
+              <div>
+                <h3>Learning Style</h3>
+                <p>Strong focus on fundamentals, repetition, and practical application.</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <span class="timeline-index">02</span>
+              <div>
+                <h3>What Drives Me</h3>
+                <p>Building solutions that feel organized, useful, and technically sound.</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <span class="timeline-index">03</span>
+              <div>
+                <h3>What I Am Building Toward</h3>
+                <p>A strong software development career built on consistency and capability.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="skills section reveal">
+        <div class="section-heading">
+          <p class="eyebrow">Capabilities</p>
+          <h2>Tools and concepts I use to turn ideas into working systems.</h2>
+        </div>
+
+        <div class="skills-layout">
+          <article class="skill-column floating-card">
+            <p class="skill-label">Languages</p>
+            <div class="pill-group">
+              <span>C</span>
+              <span>C++</span>
+              <span>Python</span>
+              <span>HTML</span>
+              <span>CSS</span>
+            </div>
+          </article>
+
+          <article class="skill-column floating-card">
+            <p class="skill-label">Core Concepts</p>
+            <div class="pill-group">
+              <span>OOP</span>
+              <span>DSA</span>
+              <span>DBMS</span>
+              <span>File Handling</span>
+              <span>Problem Solving</span>
+            </div>
+          </article>
+
+          <article class="skill-column floating-card accent-card">
+            <p class="skill-label">Working Style</p>
+            <ul class="feature-list">
+              <li>Structured approach to building and debugging</li>
+              <li>Comfortable with logic-heavy problem solving</li>
+              <li>Interested in maintainable and scalable thinking</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="projects" class="projects section reveal">
+        <div class="section-heading">
+          <p class="eyebrow">Selected Work</p>
+          <h2>Projects that reflect how I think, build, and solve.</h2>
+        </div>
+
+        <article class="spotlight-card floating-card">
+          <div class="spotlight-copy">
+            <p class="eyebrow">Project Spotlight</p>
+            <h3>HELIXA stands at the center of the portfolio.</h3>
+            <p>
+              This concept brings together object oriented programming, health-focused
+              utility, and safety-aware thinking in one stronger signature project.
+              It shows the direction I want my work to move toward: practical,
+              meaningful, and built with real structure.
+            </p>
+            <div class="spotlight-points">
+              <span>Health data management</span>
+              <span>Emergency-aware features</span>
+              <span>OOP-driven architecture</span>
+            </div>
+          </div>
+
+          <div class="spotlight-panel">
+            <div class="spotlight-orbit orbit-one"></div>
+            <div class="spotlight-orbit orbit-two"></div>
+            <div class="spotlight-core">
+              <strong>HELIXA</strong>
+              <span>Smart personal health companion</span>
+            </div>
+          </div>
+        </article>
+
+        <div class="project-grid">
+          <article class="project-card floating-card">
+            <div class="project-topline">
+              <span>01</span>
+              <p>Productivity System</p>
+            </div>
+            <h3>To-Do List Application</h3>
+            <p>
+              Built with C++ and Python to manage tasks through prioritization,
+              completion tracking, and persistent data storage using file handling.
+            </p>
+            <ul class="project-tags">
+              <li>C++</li>
+              <li>Python</li>
+              <li>Logic Design</li>
+            </ul>
+          </article>
+
+          <article class="project-card floating-card">
+            <div class="project-topline">
+              <span>02</span>
+              <p>Structured Data Workflow</p>
+            </div>
+            <h3>Inventory Management Software</h3>
+            <p>
+              Designed a CRUD-based inventory system to simulate DBMS-style data
+              handling with organized records and structured operations.
+            </p>
+            <ul class="project-tags">
+              <li>DBMS Concepts</li>
+              <li>CRUD</li>
+              <li>System Design</li>
+            </ul>
+          </article>
+
+          <article class="project-card featured-card floating-card">
+            <div class="project-topline">
+              <span>03</span>
+              <p>Health and Safety Concept</p>
+            </div>
+            <h3>HELIXA</h3>
+            <p>
+              A C++ OOP-based smart personal health companion that manages
+              essential health data and supports built-in emergency alerts for
+              timely assistance and better personal safety.
+            </p>
+            <ul class="project-tags">
+              <li>C++</li>
+              <li>OOP</li>
+              <li>Health Utility</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="extra-contact section reveal">
+        <article class="extra-card floating-card">
+          <p class="eyebrow">Beyond Academics</p>
+          <h2>Discipline outside code shapes discipline inside it.</h2>
+          <ul class="feature-list">
+            <li>Sitar training that strengthened patience, rhythm, and pattern recognition</li>
+            <li>Hostel Advisory Committee involvement through coordination and leadership</li>
+            <li>Consistent DSA and logical reasoning practice beyond classroom work</li>
+          </ul>
+        </article>
+
+        <article id="contact" class="contact-card floating-card">
+          <p class="eyebrow">Contact</p>
+          <h2>Let us build something thoughtful.</h2>
+          <p>
+            I am open to internships, collaborations, and opportunities that help
+            me grow as a software developer.
+          </p>
+          <a class="contact-link" href="mailto:divyanshibairagi28@gmail.com">
+            divyanshibairagi28@gmail.com
+          </a>
+        </article>
+      </section>
+    </main>
   </div>
-</header>
 
-<main class="block-grid">
-
-  <!-- ABOUT -->
-  <div class="block pink" data-block="about">
-    <div class="block-header">
-      <h2>About</h2>
-      <span class="close">×</span>
-    </div>
-    <p class="subtitle">Who I am & how I think</p>
-
-    <div class="block-content">
-      <p>
-        I’m a second-year IT student driven by logic, structure, and long-term growth.
-        I enjoy problem-solving, building maintainable systems, and working close to
-        core computer science fundamentals.
-      </p>
-    </div>
-  </div>
-
-  <!-- SKILLS -->
-  <div class="block mauve" data-block="skills">
-    <div class="block-header">
-      <h2>Skills</h2>
-      <span class="close">×</span>
-    </div>
-    <p class="subtitle">What I work with</p>
-
-    <div class="block-content skills-grid">
-      <span>C</span><span>C++</span><span>Python</span>
-      <span>OOP</span><span>DSA</span><span>DBMS</span>
-      <span>File Handling</span><span>Problem Solving</span>
-      <span>HTML & CSS</span>
-    </div>
-  </div>
-
-  <!-- PROJECTS -->
-  <div class="block neutral" data-block="projects">
-    <div class="block-header">
-      <h2>Projects</h2>
-      <span class="close">×</span>
-    </div>
-    <p class="subtitle">Things I’ve built</p>
-
-    <div class="block-content">
-      <div class="project">
-        <h3>To-Do List Application</h3>
-        <p>
-          Task management system using C++ & Python with prioritization,
-          completion tracking, and persistent storage via file handling.
-        </p>
-      </div>
-
-      <div class="project">
-        <h3>Inventory Management Software</h3>
-        <p>
-          CRUD-based inventory system simulating DBMS-style data handling
-          and structured models.
-        </p>
-      </div>
-
-      <div class="project">
-        <h3>HELIXA</h3>
-        <p>
-          HELIXA is a C++ OOP-based smart personal health companion that 
-      manages essential health data and provides built-in emergency 
-      alerts for timely support and safety.
-        </p>
-      </div>
-    </div>
-  </div>
-
-  <!-- EXTRA -->
-  <div class="block pink" data-block="extra">
-    <div class="block-header">
-      <h2>Extra</h2>
-      <span class="close">×</span>
-    </div>
-    <p class="subtitle">Beyond academics</p>
-
-    <div class="block-content">
-      <ul>
-        <li>Sitar training – discipline & pattern recognition</li>
-        <li>Hostel Advisory Committee – coordination & leadership</li>
-        <li>Consistent DSA & logic practice</li>
-      </ul>
-    </div>
-  </div>
-
-  <!-- CONTACT -->
-  <div class="block mauve" data-block="contact">
-    <div class="block-header">
-      <h2>Contact</h2>
-      <span class="close">×</span>
-    </div>
-    <p class="subtitle">Let’s connect</p>
-
-    <div class="block-content">
-      <p>Email: <strong>divyanshibairagi28@gmail.com</strong></p>
-    </div>
-  </div>
-
-</main>
-
-<script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
 
