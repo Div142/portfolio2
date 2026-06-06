@@ -213,6 +213,26 @@ main {
   grid-template-columns: 1.15fr 0.85fr;
   gap: 28px;
   align-items: center;
+  align-content: center;
+  padding-top: 2rem;
+}
+
+.landing-name {
+  grid-column: 1 / -1;
+  display: grid;
+  justify-items: center;
+  text-align: center;
+  gap: 10px;
+  margin-bottom: 1.2rem;
+}
+
+.landing-name h2 {
+  margin: 0;
+  font-family: "Cormorant Garamond", serif;
+  font-size: clamp(3.2rem, 8vw, 6.4rem);
+  line-height: 0.9;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
 }
 
 .eyebrow {
@@ -251,6 +271,10 @@ main {
   color: var(--muted);
   font-size: 1.06rem;
   line-height: 1.8;
+}
+
+.hero-copy {
+  position: relative;
 }
 
 .hero-points,
@@ -389,6 +413,39 @@ main {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 18px;
+}
+
+.signature-band {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+  margin-top: 28px;
+}
+
+.signature-item {
+  padding: 22px 24px;
+  border-radius: 22px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.06), rgba(255, 255, 255, 0.02));
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(18px);
+}
+
+.signature-item span {
+  display: inline-block;
+  margin-bottom: 10px;
+  color: var(--accent-soft);
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.signature-item p {
+  margin: 0;
+  color: var(--text);
+  line-height: 1.65;
+  font-size: 0.98rem;
 }
 
 .insight-card {
@@ -638,7 +695,8 @@ main {
   .skills-layout,
   .spotlight-card,
   .project-grid,
-  .extra-contact {
+  .extra-contact,
+  .signature-band {
     grid-template-columns: 1fr;
   }
 
@@ -653,6 +711,10 @@ main {
 
   .hero h1 {
     max-width: 13ch;
+  }
+
+  .landing-name {
+    margin-bottom: 0.4rem;
   }
 }
 
@@ -682,6 +744,10 @@ main {
 
   .hero {
     gap: 22px;
+  }
+
+  .landing-name h2 {
+    font-size: clamp(2.6rem, 14vw, 4.1rem);
   }
 
   .hero h1 {
