@@ -1,7 +1,7 @@
-﻿const phrases = [
-  "Aspiring software developer with a systems mindset.",
-  "Focused on problem solving, OOP, and strong CS fundamentals.",
-  "Building practical projects with clarity and discipline."
+const phrases = [
+  "3rd year IT student focused on software development.",
+  "Building cleaner projects with stronger fundamentals.",
+  "Focused on OOP, DSA, DBMS, and practical problem solving."
 ];
 
 const typingTarget = document.querySelector(".typing");
